@@ -1,7 +1,7 @@
-from colorama import init
-from termcolor import colored
+from colorama import init  #install colorama module by executing "pip install colorama" command without quotes.
+from termcolor import colored  #install termcolor module by executing "pip install colorama" command without quotes.
 init()
-f = open('searchfile.txt')
+f = open('searchfile.txt')  #file should be in same directory where the search.py file resides.
 l = f.read().split(' ')
 for word in l:
 	print(word,end =' ')
