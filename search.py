@@ -1,7 +1,7 @@
-from colorama import Fore,Back,Style,init
+from colorama import init
 from termcolor import colored
 init()
-f = open('myfile.txt','r')
+f = open('searchfile.txt')
 l = f.read().split(' ')
 for word in l:
 	print(word,end =' ')
